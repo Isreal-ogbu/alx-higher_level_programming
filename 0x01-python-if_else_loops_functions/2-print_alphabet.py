@@ -1,3 +1,6 @@
 #!/usr/bin/python3
-for i in 'abcdefghijklmnopqrstuvwxyz':
-    print('{}'.format(i),end='')
+from string import ascii_lowercase
+
+
+for i in ascii_lowercase:
+    print('{}'.format(i), end='')
