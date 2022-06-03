@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-for i in 'abcdefghijklmnopqrstuvwxyz':
+letters = "abcdefghijklmnopqrstuvwxyz"
+for i in letters:
     print("{}".format(i.lower()), end="")
