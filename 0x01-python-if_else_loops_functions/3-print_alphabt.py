@@ -2,4 +2,4 @@
 letters = "abcdefghijklmnopqrstuvwxyz"
 for i in letters:
     if i != 'q' and i != 'e':
-        print("{}".format(i.lower()), end=" ")
+        print("{}".format(i.lower()), end="")
