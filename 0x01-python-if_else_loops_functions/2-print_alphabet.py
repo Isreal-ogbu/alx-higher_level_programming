@@ -1,5 +1,4 @@
 #!/usr/bin/python3
 letters = "abcdefghijklmnopqrstuvwxyz"
 for i in letters:
-    print("{}".format(i.lower()), end=" ")
-    
+    print("{}".format(i.lower()), end="")
