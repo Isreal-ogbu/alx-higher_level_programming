@@ -1,2 +1,1 @@
-def magic_calculation(a, b):
-    
+import magic_calculation_102
