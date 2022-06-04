@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-letter = "AaBbCcDdEeFfGgHhIiJjKkLlMmOoPpQqRrSsTtUuVvWwXxYyZz"
+letter = "AbCdEfGhIjKlMnOpQrStUvWxYz"
 print("{}".format(letter[::-1]))
