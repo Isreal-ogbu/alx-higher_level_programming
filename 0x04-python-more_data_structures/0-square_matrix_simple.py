@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def matrix_square(matrix=[[]]):
+def square_matrix_simple(matrix=[[]]):
     square = []
     for val in matrix:
         square.append([valu**2 for valu in val])
