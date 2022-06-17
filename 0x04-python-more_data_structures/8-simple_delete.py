@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-def simple_delete(my_dict, key):
+def simple_delete(a_dictionary, key=""):
     try:
-        del my_dict[key]
-        return my_dict
+        del a_dictionary[key]
+        return a_dictionary
     except:
-        return my_dict
+        return a_dictionary
