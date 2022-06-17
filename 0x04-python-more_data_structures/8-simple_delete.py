@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-def update_dictionary(my_dict, key):
-    del my_dict[key]
-    return my_dict
+def simple_delete(a_dictionary, key=""):
+    del a_dictionary[key]
+    return a_dictionary
