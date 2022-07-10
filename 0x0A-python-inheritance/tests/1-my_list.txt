@@ -45,4 +45,3 @@ Now use it:
 
     >>> b.print_sorted()
     [-2, 0, 3, 4]
-    
