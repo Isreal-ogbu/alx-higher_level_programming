@@ -3,7 +3,6 @@
 This module implements a custom list object
 """
 
-list = __import__('test/1-my_list.txt').list
 
 class MyList(list):
     """Custom List
@@ -12,4 +11,4 @@ class MyList(list):
         """
         prints the list, but sorted (ascending sort)
         """
-        print(sorted(self))
+        print(sorted(self.list))
