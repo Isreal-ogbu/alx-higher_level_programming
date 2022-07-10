@@ -3,7 +3,7 @@
 This module implements a custom list object
 """
 
-list = __import__('1-my_list').list
+list = __import__('test/1-my_list.txt').list
 
 class MyList(list):
     """Custom List
