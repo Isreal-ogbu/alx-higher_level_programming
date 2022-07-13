@@ -1,14 +1,20 @@
 #!/usr/bin/python3
 """
-This module implements a custom list object
+Module 1-my_list
+Function that returns the list of available attributes
+and methods of an object
 """
 
 
 class MyList(list):
-    """Custom List
+    """ Class that inherits the attributes references of class list
+    Args:
+        list: class list
     """
+
     def print_sorted(self):
-        """
-        prints the list, but sorted (ascending sort)
-        """
-        print(sorted(self))
+        """ Method that prints the sorted list """
+
+        list_cpy = self.copy()
+        list_cpy.sort()
+        print("{}".format(list_cpy))
