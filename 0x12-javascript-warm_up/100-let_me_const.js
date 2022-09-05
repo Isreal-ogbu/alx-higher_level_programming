@@ -5,4 +5,3 @@ function val() {
     return myvar
 }
 val()
-console.log(myvar)
