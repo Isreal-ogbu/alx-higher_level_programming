@@ -1,6 +1,6 @@
 #!/usr/bin/node
 module.exports = {
-    addmeback : (number, thefunction) => {
-        return thefunction(number + 1)
-    }
-}
+    addmeback : (num, function(n) {
+        return addmeback.function(num + n)
+    })
+};
