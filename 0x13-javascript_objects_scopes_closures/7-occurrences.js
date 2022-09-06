@@ -1,9 +1,9 @@
 #!/usr/bin/node
-module.exports = function nbOccurences(list, val) {
+
+exports.nbOccurences = function (list, searchElement) {
     let count = 0;
-    for (let j = 0; j < list.length; j++) {
-        if (list[j] === val){
-            count ++
-        }
-    } return count
+    list.forEach(element => {
+      if (element === searchElement) count++;
+    });
+    return count;
 };
