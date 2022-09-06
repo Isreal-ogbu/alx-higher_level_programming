@@ -1,2 +1,7 @@
 #!/usr/bin/node
-class Rectangle {};
+class Rectangle {
+    Rectangle;
+    constructor(Rectangle) {
+        this.Rectangle = Rectangle
+    }
+};
