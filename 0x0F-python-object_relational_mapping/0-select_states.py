@@ -13,8 +13,8 @@ if __name__ == '__main__':
         port=3306,
         host='localhost')
     cursor = db.cursor()
-    cursor.execute('SELECT states.id, name FROM states ORDER BY states.id ASC')
+    cursor.execute('SELECT states.id, ststes.name FROM states ORDER BY states.id ASC')
 
     states = cursor.fetchall()
     for state in states:
-        print(state)
+        print(f"({state[0]}, {state[1]})")
