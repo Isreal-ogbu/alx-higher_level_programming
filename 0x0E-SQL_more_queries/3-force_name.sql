@@ -1,1 +1,1 @@
-CREATE TABLE IF NOT EXIST force_name (id int, name VARCHAR(50) NOT NULL);
+CREATE TABLE IF NOT EXISTS force_name (id int, name VARCHAR(50) NOT NULL);
